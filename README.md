@@ -16,10 +16,11 @@ What is necessary to run the application:
 
 Running the application:
 
-1. ```bundle install```
-2. ```rake db:setup```
-3. ```rspec spec```
-4. ```rails s```
-5. go to ```http://localhost:3000```
-6. search for one of these: thiago, michelle, gabriela (check more on seeds file)
+1. ```gem install bundler```
+2. ```bundle install```
+3. ```rake db:setup```
+4. ```rspec spec```
+5. ```rails s```
+6. go to ```http://localhost:3000```
+7. search for one of these: thiago, michelle, gabriela (check more on seeds file)
 
