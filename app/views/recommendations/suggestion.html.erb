@@ -1,0 +1,16 @@
+<h4>Hi <b><%= @name.capitalize%></b>,  those products were liked by you</h4>
+
+<%@products.each do |p| %>
+	 <p><%=p.product%></p>
+<%end%>
+
+<h4> Some friends like them too</h4>
+<%@likes.each do |key, user_like|%>
+   	<p><%= key%> : <p>
+   	<%user_like.each do |a|%>
+        <%if a.name!= @name%>
+              <p><%=a.name.capitalize%>  <p/>
+         <%end%>	
+	<%end%>
+	
+<%end%>
